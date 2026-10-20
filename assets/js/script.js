@@ -44,3 +44,46 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, { rootMargin: '-30% 0px -45% 0px' });
 document.querySelectorAll('main section').forEach((section) => observer.observe(section));
+
+const logo = document.querySelector('.nav_logo');
+const logoSuffix = logo.querySelector('.logo_suffix');
+const logoNames = ['Smiles', 'Soluction', 'Ideias', 'App'];
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+let logoIndex = 0;
+let logoTimer;
+let logoRunning = false;
+
+function changeLogo(nextIndex) {
+    logo.classList.add('is-closing');
+    logoTimer = window.setTimeout(() => {
+        logoIndex = nextIndex;
+        logoSuffix.textContent = logoNames[logoIndex];
+        logo.classList.remove('is-closing');
+        scheduleLogo();
+    }, 320);
+}
+
+function scheduleLogo() {
+    logoTimer = window.setTimeout(() => {
+        changeLogo((logoIndex + 1) % logoNames.length);
+    }, 4000);
+}
+
+function updateLogoLoop() {
+    const shouldRun = !reducedMotion.matches && !document.hidden;
+    if (shouldRun === logoRunning) return;
+    logoRunning = shouldRun;
+    window.clearTimeout(logoTimer);
+    if (shouldRun) {
+        logo.classList.remove('is-closing');
+        scheduleLogo();
+    } else {
+        logoIndex = 0;
+        logoSuffix.textContent = logoNames[0];
+        logo.classList.remove('is-closing');
+    }
+}
+
+reducedMotion.addEventListener('change', updateLogoLoop);
+document.addEventListener('visibilitychange', updateLogoLoop);
+updateLogoLoop();
