@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Ilustração demonstrativa de agenda">
+      <defs><radialGradient id="glow"><stop stop-color="#a2573c"/><stop offset="1" stop-color="#2e2023"/></radialGradient></defs>
+      <rect width="1920" height="1080" fill="url(#glow)"/>
+      <circle cx="1560" cy="170" r="430" fill="#ffc785" opacity=".1"/>
+      <rect x="240" y="130" width="1450" height="800" rx="35" fill="#161D2B" stroke="#AF6C4B" stroke-width="8"/>
+        <rect x="280" y="180" width="1370" height="90" rx="16" fill="#263044"/>
+        <rect x="300" y="210" width="300" height="28" rx="13" fill="#D6C9BF"/>
+        <rect x="300" y="310" width="1370" height="570" rx="22" fill="#202B3A"/>
+        <g stroke="#516176" stroke-width="5"><path d="M300 422H1670M300 534H1670M300 646H1670M300 758H1670"/>
+        <path d="M495 310V880M690 310V880M885 310V880M1080 310V880M1275 310V880M1470 310V880"/></g>
+        <g fill="#F38D4E"><rect x="510" y="434" width="367" height="82" rx="14"/><rect x="907" y="548" width="350" height="82" rx="14"/><rect x="1274" y="666" width="174" height="80" rx="14"/></g>
+        <rect x="310" y="323" width="170" height="83" rx="12" fill="#54607A"/>
+    </svg>

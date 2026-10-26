@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS Adicionais - Combinamos de Mesclar posteriormente todo o conteudo gerado para não haver conflito nas versões -->
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/projetos.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
     <title>Tech to Smiles</title>
 </head>
 <body>
@@ -27,6 +34,7 @@
     </header>
 
     <main>
+        <!-- Home -->
         <section id="home" class="home" aria-labelledby="home-title">
             <div class="home_visual" aria-hidden="true"></div>
             <div class="home_content">
@@ -44,10 +52,336 @@
                 </ul>
             </div>
         </section>
+        <!-- About -->
         <section id="about">Sobre</section>
-        <section id="projetos">Projetos</section>
-        <section id="contato">Contato</section>
+        <!-- Projetos -->
+        <section id="projetos" class="projects">
+
+        <div class="projects_container">
+
+            <!-- Cabeçalho -->
+            <div class="projects_header">
+
+            <div>
+                <span class="projects_label">PROJETOS</span>
+                <h2>Ideias que ganham <span>vida.</span></h2>
+            </div>
+
+            <p>
+                Conheça alguns projetos que desenvolvemos
+                e veja como a tecnologia pode gerar soluções
+                reais e impactar pessoas.
+            </p>
+
+            </div>
+
+            <!-- Carrossel -->
+            <div class="projects_slider">
+
+            <button class="projects_prev" type="button"
+                    aria-label="Projeto anterior">
+                &#10094;
+            </button>
+
+            <div class="projects_viewport">
+
+                <div class="projects_track">
+
+                <!-- Projeto 1 -->
+                <article class="project_card">
+
+                    <img
+                    src="assets/img-ex/gestao.svg"
+                    alt="Sistema de Gestão Empresarial"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                    >
+
+                    <div class="project_info">
+                    <span>Sistema Web</span>
+                    <h3>Gestão Empresarial</h3>
+
+                    <p>
+                        Sistema completo para controle
+                        de processos, finanças e equipes.
+                    </p>
+
+                    <div class="project_actions">
+                        <a href="projetos/gestao.html">
+                        Ver Projeto →
+                        </a>
+
+                        <button type="button" data-project="gestao">
+                        Mais detalhes
+                        </button>
+                    </div>
+                    </div>
+
+                </article>
+
+                <!-- Projeto 2 -->
+                <article class="project_card">
+
+                    <img
+                    src="assets/img-ex/servicos.svg"
+                    alt="Aplicativo de Serviços"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                    >
+
+                    <div class="project_info">
+                    <span>Aplicativo Mobile</span>
+                    <h3>App de Serviços</h3>
+
+                    <p>
+                        Aplicativo para conexão entre
+                        clientes e prestadores de serviços.
+                    </p>
+
+                    <div class="project_actions">
+                        <a href="projetos/servicos.html">
+                        Ver Projeto →
+                        </a>
+
+                        <button type="button" data-project="servicos">
+                        Mais detalhes
+                        </button>
+                    </div>
+                    </div>
+
+                </article>
+
+                <!-- Projeto 3 -->
+                <article class="project_card">
+
+                    <img
+                    src="assets/img-ex/loja.svg"
+                    alt="Plataforma de E-commerce"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                    >
+
+                    <div class="project_info">
+                    <span>E-commerce</span>
+                    <h3>Loja Online</h3>
+
+                    <p>
+                        Plataforma completa com
+                        pagamentos e gestão de pedidos.
+                    </p>
+
+                    <div class="project_actions">
+                        <a href="projetos/loja.html">
+                        Ver Projeto →
+                        </a>
+
+                        <button type="button" data-project="loja">
+                        Mais detalhes
+                        </button>
+                    </div>
+                    </div>
+
+                </article>
+
+                <!-- Projeto 4 -->
+                <article class="project_card">
+
+                    <img
+                    src="assets/img-ex/loja.svg"
+                    alt="Sistema de Agendamentos"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                    >
+
+                    <div class="project_info">
+                    <span>Sistema Web</span>
+                    <h3>Agendamentos</h3>
+
+                    <p>
+                        Sistema para organizar clientes,
+                        horários e atendimentos.
+                    </p>
+
+                    <div class="project_actions">
+                        <a href="projetos/agendamentos.html">
+                        Ver Projeto →
+                        </a>
+
+                        <button type="button" data-project="agendamentos">
+                        Mais detalhes
+                        </button>
+                    </div>
+                    </div>
+
+                </article>
+
+                </div>
+            </div>
+
+            <button class="projects_next" type="button"
+                    aria-label="Próximo projeto">
+                &#10095;
+            </button>
+
+            </div>
+
+            <!-- Indicadores -->
+            <div class="projects_dots"></div>
+
+        </div>
+
+        </section>
+        <!-- Contato -->
+        <section
+        id="contato"
+        class="contact-cta"
+        aria-labelledby="contact-cta-title"
+        >
+        <div class="contact-cta__container">
+
+            <div class="contact-cta__content">
+
+            <span class="contact-cta__label">
+                VAMOS CONVERSAR?
+            </span>
+
+            <h2 id="contact-cta-title">
+                Sua próxima grande ideia
+                pode começar <span>agora.</span>
+            </h2>
+
+            <p class="contact-cta__description">
+                Entre em contato e descubra como podemos
+                ajudar seu negócio a ir mais longe com tecnologia.
+            </p>
+
+            <div class="contact-cta__actions">
+
+                <a
+                href="mailto:SEU_EMAIL@SEUDOMINIO.COM"
+                class="contact-cta__button contact-cta__button--primary"
+                >
+                Fale Conosco
+                <span aria-hidden="true">→</span>
+                </a>
+
+                <a
+                href="#projetos"
+                class="contact-cta__button contact-cta__button--secondary"
+                >
+                Nossos Projetos
+                </a>
+
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+
     </main>
+    
+    
+    
+    <!-- MODAL DE PROJETOS -->
+    <dialog id="project-modal" class="project-modal"
+            aria-labelledby="modal-title">
+
+    <div class="project-modal__layout">
+
+        <!-- COLUNA ESQUERDA: IMAGEM -->
+        <div class="project-modal__preview">
+
+        <img
+            id="modal-image"
+            src=""
+            alt="Prévia do projeto"
+            width="1920"
+            height="1080"
+        >
+
+        </div>
+
+        <!-- COLUNA DIREITA: INFORMAÇÕES -->
+        <div class="project-modal__content">
+
+        <button
+            type="button"
+            class="project-modal__close"
+            aria-label="Fechar modal"
+        >
+            &times;
+        </button>
+
+        <span id="modal-category"></span>
+
+        <h2 id="modal-title"></h2>
+
+        <p id="modal-description"></p>
+
+        <h3>O que a solução oferece</h3>
+
+        <ul id="modal-features"></ul>
+
+        <p id="modal-note"></p>
+
+        <a href="#contato" class="project-modal__cta">
+            Vamos conversar sobre isso
+            <span aria-hidden="true">→</span>
+        </a>
+
+        </div>
+
+    </div>
+
+    </dialog>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="#home" class="footer-logo">
+                    <img src="assets/images/logo-transparente.png" alt="Tech To Smiles - Soluções Tecnológicas">
+                </a>
+                <nav class="footer-nav">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre nós</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#contato">Contato</a>
+                </nav> 
+                <div class="footer-social">
+                <a href="https://instagram.com/"
+                    aria-label="Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://linkedin.com/company/SUA_EMPRESA"
+                    aria-label="LinkedIn"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="#contato" aria-label="Contato">
+                    <i class="bi bi-envelope"></i>
+                </a>
+
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Tech To Smiles. Todos os direitos reservados.</p>
+                <p>Desenvolvido por Tech To Smiles.</p>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/script.js" defer></script>
+    <!-- Scripts adicionais - mesma coisa do CSS descrito no Header -->
+    <script src="assets/js/projetos.js" defer></script>
 </body>
 </html>

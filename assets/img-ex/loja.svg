@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Ilustração demonstrativa de loja">
+      <defs><radialGradient id="glow"><stop stop-color="#3a6885"/><stop offset="1" stop-color="#182335"/></radialGradient></defs>
+      <rect width="1920" height="1080" fill="url(#glow)"/>
+      <circle cx="1560" cy="170" r="430" fill="#ffb15e" opacity=".1"/>
+      <rect x="175" y="150" width="1570" height="780" rx="25" fill="#F2F3F6"/>
+        <rect x="175" y="150" width="1570" height="95" rx="20" fill="#131B2B"/>
+        <rect x="225" y="185" width="265" height="22" rx="11" fill="#FF9A4B"/>
+        <rect x="235" y="310" width="1450" height="230" rx="20" fill="#193650"/>
+        <circle cx="1514" cy="422" r="88" fill="#FF9A4B" opacity=".45"/>
+        <rect x="285" y="357" width="580" height="42" rx="15" fill="#D0D9EB"/>
+        <rect x="285" y="430" width="320" height="28" rx="12" fill="#9FAEC6"/>
+        <rect x="240" y="600" width="435" height="258" rx="18" fill="#D6D9E4"/>
+        <rect x="742" y="600" width="435" height="258" rx="18" fill="#D6D9E4"/>
+        <rect x="1244" y="600" width="435" height="258" rx="18" fill="#D6D9E4"/>
+        <g fill="#749AB9"><circle cx="457" cy="713" r="77"/><circle cx="965" cy="713" r="77"/><circle cx="1457" cy="713" r="77"/></g>
+    </svg>

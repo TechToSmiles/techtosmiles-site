@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Ilustração demonstrativa de analytics">
+      <defs><radialGradient id="glow"><stop stop-color="#237a77"/><stop offset="1" stop-color="#0c3436"/></radialGradient></defs>
+      <rect width="1920" height="1080" fill="url(#glow)"/>
+      <circle cx="1560" cy="170" r="430" fill="#ffac5f" opacity=".1"/>
+      <rect x="175" y="130" width="1570" height="820" rx="26" fill="#090F1B" stroke="#A6BED1" stroke-opacity=".35" stroke-width="7"/>
+    <rect x="178" y="132" width="1564" height="79" rx="24" fill="#151D2C"/>
+    <circle cx="235" cy="173" r="13" fill="#ffac5f"/><circle cx="270" cy="173" r="13" fill="#63718B"/><circle cx="305" cy="173" r="13" fill="#63718B"/>
+    <rect x="220" y="262" width="250" height="630" rx="15" fill="#172337"/>
+    <rect x="270" y="328" width="145" height="25" rx="10" fill="#ffac5f" opacity=".8"/>
+    <rect x="270" y="390" width="125" height="17" rx="8" fill="#59718F"/>
+    <rect x="270" y="452" width="130" height="17" rx="8" fill="#59718F"/>
+    <rect x="270" y="514" width="115" height="17" rx="8" fill="#59718F"/>
+    <rect x="535" y="267" width="550" height="190" rx="20" fill="#192941"/>
+    <rect x="1130" y="267" width="545" height="190" rx="20" fill="#192941"/>
+    <rect x="535" y="500" width="1140" height="388" rx="20" fill="#192941"/>
+    <path d="M590 799 C700 790 740 660 855 690 S1030 530 1140 610 S1420 520 1630 565" fill="none" stroke="#ffac5f" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#ffac5f" opacity=".7"><rect x="600" y="344" width="130" height="22" rx="11"/><rect x="1184" y="336" width="160" height="22" rx="11"/></g>
+    <g fill="#456284"><rect x="600" y="390" width="255" height="15" rx="7"/><rect x="1184" y="390" width="220" height="15" rx="7"/></g>
+    </svg>
